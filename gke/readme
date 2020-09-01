@@ -25,7 +25,8 @@ kubectl run nginx --image=nginx
 *해결 : https://github.com/ivanfioravanti/kubernetes-the-hard-way-on-azure/issues/31
 6-3. deployment 생성
 *문제 :  run 
-https://github.com/ChungHyeongLee/cndgud-k8s/issues/1#issue-690204396
+![image](https://user-images.githubusercontent.com/39398450/91866246-42a79e00-ecad-11ea-9057-18ddef0be24e.png)
+
 ---------------------------------------------------
 6-3. deployment 생성
 kubectl create deployment nginx --image=nginx
