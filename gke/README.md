@@ -19,7 +19,8 @@ gud-gke-test-2020901-288213
 kubectl get nodes
 
 6-2. run?
-kubectl run nginx --image=nginx
+kubectl run nginx --image=nginx 
+
 -------------------------
 *ISSUE : run만 하는 경우 6-4 expose를 하면 Error from server (NotFound): deployments.extensions "nginx" not found
 *해결 : https://github.com/ivanfioravanti/kubernetes-the-hard-way-on-azure/issues/31
